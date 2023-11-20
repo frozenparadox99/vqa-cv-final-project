@@ -6,6 +6,7 @@
   - [Installation](#installation)
     - [Create the virtual environment](#create-the-virtual-environment)
     - [Clone the repository and install the dependencies](#clone-the-repository-and-install-the-dependencies)
+    - [Installing the dataset](#installing-the-dataset)
   - [Plan of Action](#plan-of-action)
 
 ## Installation
@@ -17,10 +18,16 @@ source vqa/bin/activate
 ```
 
 ### Clone the repository and install the dependencies
+If you are not able to install the requirements file, just install all dependencies one after the other and remove everything other than the -e . from the requirements file
 ```bash
 git clone https://github.com/yourusername/vqa-cv-final-project.git
 cd vqa-cv-final-project
 pip install -r requirements.txt
+```
+
+### Installing the dataset
+```bash
+python3 main.py
 ```
 
 ## Plan of Action

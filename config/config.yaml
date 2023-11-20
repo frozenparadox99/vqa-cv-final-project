@@ -1,0 +1,49 @@
+artifacts_root: artifacts
+
+data_ingestion_input_images_train:
+  root_dir: artifacts/data_ingestion/input_images/train
+  source_URL: http://images.cocodataset.org/zips/train2014.zip
+  local_data_file: artifacts/data_ingestion/input_images/train/train2014.zip
+  unzip_dir: artifacts/data_ingestion/input_images/train
+
+data_ingestion_input_images_validation:
+  root_dir: artifacts/data_ingestion/input_images/val
+  source_URL: http://images.cocodataset.org/zips/val2014.zip
+  local_data_file: artifacts/data_ingestion/input_images/val/val2014.zip
+  unzip_dir: artifacts/data_ingestion/input_images/val
+
+data_ingestion_input_images_test:
+  root_dir: artifacts/data_ingestion/input_images/test
+  source_URL: http://images.cocodataset.org/zips/test2015.zip
+  local_data_file: artifacts/data_ingestion/input_images/test/test2015.zip
+  unzip_dir: artifacts/data_ingestion/input_images/test
+
+data_ingestion_input_questions_train:
+  root_dir: artifacts/data_ingestion/input_questions/train
+  source_URL: https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Train_mscoco.zip
+  local_data_file: artifacts/data_ingestion/input_questions/train/v2_Questions_Train_mscoco.zip
+  unzip_dir: artifacts/data_ingestion/input_questions/train
+
+data_ingestion_input_questions_validation:
+  root_dir: artifacts/data_ingestion/input_questions/val
+  source_URL: https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Val_mscoco.zip
+  local_data_file: artifacts/data_ingestion/input_questions/val/v2_Questions_Val_mscoco.zip
+  unzip_dir: artifacts/data_ingestion/input_questions/val
+
+data_ingestion_input_questions_test:
+  root_dir: artifacts/data_ingestion/input_questions/test
+  source_URL: https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Test_mscoco.zip
+  local_data_file: artifacts/data_ingestion/input_questions/test/v2_Questions_Test_mscoco.zip
+  unzip_dir: artifacts/data_ingestion/input_questions/test
+
+data_ingestion_annotations_train:
+  root_dir: artifacts/data_ingestion/annotations/train
+  source_URL: https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Train_mscoco.zip
+  local_data_file: artifacts/data_ingestion/annotations/train/v2_Annotations_Train_mscoco.zip
+  unzip_dir: artifacts/data_ingestion/annotations/train
+
+data_ingestion_annotations_validation:
+  root_dir: artifacts/data_ingestion/annotations/val
+  source_URL: https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Val_mscoco.zip
+  local_data_file: artifacts/data_ingestion/annotations/val/v2_Annotations_Val_mscoco.zip
+  unzip_dir: artifacts/data_ingestion/annotations/val
