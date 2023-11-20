@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/vqa/__init__.py
+src/vqa.egg-info/PKG-INFO
+src/vqa.egg-info/SOURCES.txt
+src/vqa.egg-info/dependency_links.txt
+src/vqa.egg-info/top_level.txt
+src/vqa/components/__init__.py
+src/vqa/config/__init__.py
+src/vqa/config/configuration.py
+src/vqa/constants/__init__.py
+src/vqa/entity/__init__.py
+src/vqa/pipeline/__init__.py
+src/vqa/utils/__init__.py
