@@ -1,7 +1,5 @@
 # Visual Question Answering (VQA) using Stacked Attention Networks (SAN)
 ## Overview
-![image](https://user-images.githubusercontent.com/38180831/213107520-51c9c570-8be5-4ee1-b874-a0d78856b727.png)
-
 This course project for computer vision-CSCI-GA.2271-001 project involves the development of a Visual Question Answering (VQA) system, employing a multimodal architecture. This system is designed to accept both an image and a question as input and generate an accurate answer as output. Our primary objective is to utilize the image in conjunction with a CNN and an LSTM to correctly respond to the posed question.
 
 ## Baseline Approach
