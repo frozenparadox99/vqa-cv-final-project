@@ -3,37 +3,45 @@
 ## Table of Contents
 - [VQA-CV Final Project](#vqa-cv-final-project)
   - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-    - [Create the virtual environment](#create-the-virtual-environment)
-    - [Clone the repository and install the dependencies](#clone-the-repository-and-install-the-dependencies)
-    - [Installing the dataset](#installing-the-dataset)
-  - [Plan of Action](#plan-of-action)
+- [About the Project:](#about-the-project)
+  - [Problem : Visual Question Answering for the Medical Images](#problem--visual-question-answering-for-the-medical-images)
+  - [Setup:](#setup)
+      - [Download](#download)
+      - [Important Links](#important-links)
+  - [Pre Processing](#pre-processing)
+  - [Model Description](#model-description)
+  - [Training and Testing](#training-and-testing)
 
-## Installation
+# About the Project:
 
-### Create the virtual environment
-```bash
-python -m venv vqa
-source vqa/bin/activate
-```
+## Problem : Visual Question Answering for the Medical Images 
+- [Data](https://www.nature.com/articles/sdata2018251)
+- [Stacked Attention Network](https://arxiv.org/pdf/1511.02274.pdf)
+- [Slides for Stacked Attention Network](http://www.cs.virginia.edu/~vicente/vislang/slides/wasimonica.pdf)
 
-### Clone the repository and install the dependencies
-If you are not able to install the requirements file, just install all dependencies one after the other and remove everything other than the -e . from the requirements file
-```bash
-git clone https://github.com/yourusername/vqa-cv-final-project.git
-cd vqa-cv-final-project
-pip install -r requirements.txt
-```
+## Setup: 
 
-### Installing the dataset
-```bash
-python3 main.py
-```
 
-## Plan of Action
+#### Download 
 
-- [ ] Create a data ingestion script which can download, unzip and pre-process the data.
-- [ ] Create a "prepare base model" script which would contain a sample attempt at VQA using the current baseline.
-- [ ] Create a training script.
-- [ ] Create an evaluation script.
-- [ ] Once the baseline has been implemented, research in order to get a better working model.
+        1. trainset.json
+        2. testset.json
+        3. VQA Image Folder
+        4. Cache Folder 
+Upload these to your google drive, and then follow the instructions that are present in the radiology_vqa_notebook.ipynb.
+
+
+#### Important Links 
+- [Google Colab: radiology_vqa_notebook.ipynb](https://colab.research.google.com/drive/1Bss0nh2MkNj0a2gAJUjZwDdOVU-dbeDP?usp=sharing)
+
+- [Google News Vector](https://drive.google.com/file/d/1ppatycyNv1UtYrlhHU3jo6ZuuY3SPCeL/view?usp=sharing)
+
+## Pre Processing
+All the pre-processing steps are highlighted in the following PDF:
+- [Pre Processing.pdf](https://drive.google.com/file/d/1_PGB9WQylvzkT1eMfmyqURLxUh5jHgaj/view?usp=sharing)
+
+## Model Description
+![img](https://i.imgur.com/PdzxNgb.png)
+
+## Training and Testing 
+![img2](https://i.imgur.com/nR95v7e.png)
