@@ -36,12 +36,22 @@ Upload these to your google drive, and then follow the instructions that are pre
 
 - [Google News Vector](https://drive.google.com/file/d/1ppatycyNv1UtYrlhHU3jo6ZuuY3SPCeL/view?usp=sharing)
 
+- [Demo Video 1](https://drive.google.com/file/d/1WXSk8TfH6QydYYUkzXyUOhQYEcThpAyI/view?usp=sharing)
+
+- [Demo Video 2](https://drive.google.com/file/d/18T7CG96it7DLMz-QpFPqn33aC1PwT6By/view?usp=sharing)
+
 ## Pre Processing
 All the pre-processing steps are highlighted in the following PDF:
 - [Pre Processing.pdf](https://drive.google.com/file/d/1_PGB9WQylvzkT1eMfmyqURLxUh5jHgaj/view?usp=sharing)
 
 ## Model Description
 ![img](https://i.imgur.com/PdzxNgb.png)
+![img6](https://i.imgur.com/QsRitxy.png)
 
 ## Training and Testing 
+### Preparing the train test split and model
+![img3](https://i.imgur.com/BsR3Nrd.png)
+### Accuracy on the test set
+![img4](https://i.imgur.com/dsxcFAs.png)
+### Accuracy vs Epoch Plot
 ![img2](https://i.imgur.com/nR95v7e.png)
